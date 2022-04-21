@@ -4,7 +4,7 @@ html, body {
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -14,6 +14,7 @@ body{
 h1{
     font-size: 8vw;
     margin-top: 0;
+    margin-left: 30px;
 }
 
 
@@ -32,18 +33,66 @@ h1{
 .btn {
     position: relative;
     display: block;
-    padding: 20px;
+    padding: 5x;
     overflow: hidden;
     border-width: 0;
     outline: none;
     border-radius: 2px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-    background-color: rgba(10, 4, 12, 0.85);
-    color: #ecf0f1;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    background-color: rgba(10, 4, 12, 0);
     transition: background-color .3s;
     margin-bottom: 0.5rem;
     font-size: 2vw;
 }
+
+.btncoffee{
+    position: relative;
+    display: block;
+    padding: 5px;
+    overflow: hidden;
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    background-color: rgba(10, 4, 12, 0);
+    color: #623007;
+    transition: background-color .3s;
+    margin-bottom: 0.5rem;
+    font-size: 2vw;
+}
+
+.btnwater{
+    position: relative;
+    display: block;
+    padding: 5px;
+    overflow: hidden;
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    background-color: rgba(10, 4, 12, 0);
+    color: #3d88de;
+    transition: background-color .3s;
+    margin-bottom: 0.5rem;
+    font-size: 2vw;
+}
+
+.btnmate{
+    position: relative;
+    display: block;
+    padding: 5px;
+    overflow: hidden;
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    background-color: rgba(10, 4, 12, 0);
+    color: #e6e273;
+    transition: background-color .3s;
+    margin-bottom: 0.5rem;
+    font-size: 2vw;
+}
+
 
 .btn.playstate {
     background-color: #ecf0f1;
@@ -51,3 +100,6 @@ h1{
 }
 
 
+.audio{
+    padding-bottom: 1vw;
+}
