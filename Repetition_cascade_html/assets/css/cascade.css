@@ -7,6 +7,13 @@ Todo (Step by Step) -- ohne Styles zu löschen
 5. Challenge Mache alle ersten p's in einem Container (article) rot 
 */
  
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
  p {
      color: green;
  }
@@ -14,3 +21,26 @@ Todo (Step by Step) -- ohne Styles zu löschen
  .pblue{
 color: blue;
  }
+
+ .h2{
+     color: red;
+ }
+
+.pgray{
+    color: gray;
+}
+
+ .pred{
+     color: red;
+ }
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.img{
+    padding-right: 3px;
+    size: 8vw;
+}
