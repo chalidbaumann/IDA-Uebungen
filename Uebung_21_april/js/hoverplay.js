@@ -27,3 +27,6 @@ resetBtn.addEventListener('mouseleave', function() {
 Mate1227.pause();
 Mate1227.currentTime = 0;
 }, false);
+
+
+

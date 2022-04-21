@@ -25,6 +25,11 @@ h1{
 }
 
 
+.audio{
+    margin: 2vw;
+}
+
+
 @media (max-width: 800px) {
     .flex-container {
         flex-direction: column;
