@@ -9,12 +9,17 @@
 </head>
 
 <body>
-    <h1>flüssiges</h1>
+    <div>
+        <h1 onclick="showMessage(songmap.one)" class="h1">flüssiges</h1>
+        <h1 id="fluessig"></h1>
+    </div>
 
 
 
+<div>
     <div class="audio">
-    <button class="btncoffee" onclick="playAudio()">06:15</button>
+    <p class="p--brown" onclick="showMessage(songmap.two)">06:15</p>
+    <p id="two"></p>
     <audio controls src="/Uebung_21_april/audio/Kaffee 2.mp3"></audio>
     </div>
 
@@ -77,10 +82,9 @@
     <button class="btnwater" onclick="playAudio()">20:35</button>
     <audio controls src="/Uebung_21_april/audio/Wasser_Glas_14.mp3"></audio>
     </div>
+</div>
 
-
+<script src="/Uebung_21_april/js/onclickplay.js">
 
 </body>
-
-
 </html>

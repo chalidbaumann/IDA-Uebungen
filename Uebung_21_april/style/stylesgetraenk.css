@@ -14,7 +14,8 @@ body{
 h1{
     font-size: 8vw;
     margin-top: 0;
-    margin-left: 30px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
@@ -58,7 +59,7 @@ h1{
     color: #623007;
     transition: background-color .3s;
     margin-bottom: 0.5rem;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 .btnwater{
@@ -74,7 +75,7 @@ h1{
     color: #3d88de;
     transition: background-color .3s;
     margin-bottom: 0.5rem;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 .btnmate{
@@ -90,7 +91,7 @@ h1{
     color: #e6e273;
     transition: background-color .3s;
     margin-bottom: 0.5rem;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 
@@ -102,4 +103,19 @@ h1{
 
 .audio{
     padding-bottom: 1vw;
+}
+
+
+h1:hover{
+    cursor: pointer;
+}
+
+p:hover{
+    cursor: pointer;
+}
+
+.p--brown{
+    color: #623007;
+    font-size: 3vw;
+    padding-bottom: 0;
 }
