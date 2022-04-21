@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: '30zDC5';
+    src: url(font/307DC5_0_0.woff2);
+    font-weight: normal;
+    font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+
+html,
+body {
+    box-sizing: border-box;
+}
+
+
+
+body{
+    line-height: 10px;
+    hyphens: auto;
+    word-spacing: auto;
+    letter-spacing: auto;
+    background: linear-gradient(-45deg, #ffffff, #f8f5c8, #f8f5c8);
+    overflow:scroll;
+    height: 180vh;
+    margin-bottom: 2vw;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 8vw;
+    color: blueviolet;
+}
+
+
+p{
+font-family: '30zDC5';
+font-size: 1.5vw;
+margin-left: 2vw;
+color: black;
+}
+
+.p--one{
+margin-top: 10vw;
+color: black
+}
+
+p:hover{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    cursor: pointer;
+    font-size: 180%;
+}
+
