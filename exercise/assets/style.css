@@ -1,9 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
 body{
-    background: #33f;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+a{
+    color: white;
+    display: block;
+    transition: all linear 1s;
+}
+
+
+h1{
+    font-family: 'Open Sans', sans-serif;  
+    color: white;  
+    font-size: 3vw;
 }
 
 
 
-a{
-    color: white;
+.bodyindex{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #33f;
+}
+
+
+.Dienstag{
+    background: rgb(121, 121, 212);
+    font-family: 'Open Sans', sans-serif;  
+}
+
+
+.Mittwoch{
+    background: rgb(121, 121, 212);
+    font-family: 'Open Sans', sans-serif;  
+}
+
+.Donnerstag{
+    background: rgb(121, 121, 212);
+    font-family: 'Open Sans', sans-serif;  
+}
+
+.Freitag{
+    background: rgb(121, 121, 212);
+    font-family: 'Open Sans', sans-serif;  
+}
+
+.Samstag{
+    background: rgb(121, 121, 212);
+    font-family: 'Open Sans', sans-serif;  
+}
+
+.Sonntag{
+    background: rgb(121, 121, 212);
+    font-family: 'Open Sans', sans-serif;  
+}
+
+.Montag{
+    background: rgb(121, 121, 212);
+    font-family: 'Open Sans', sans-serif;  
+}
+
+
+a#Montag{
+font-size: 2rem;
+font-family: Arial, Helvetica, sans-serif;
+background-color: antiquewhite;
+padding: 0.5rem;
+margin-bottom: 1rem;
+}
+
+a#Dienstag{
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(217, 181, 134);
+    padding: 0.5rem;    
+    margin-bottom: 1rem;
+}
+
+a#Mittwoch{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(151, 190, 178);
+    padding: 0.5rem; 
+    margin-bottom: 1rem; 
+}
+
+a#Donnerstag{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(234, 10, 219);
+    padding: 0.5rem;  
+    margin-bottom: 1rem;
+}
+
+
+a#Freitag{
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(204, 154, 88);
+    padding: 0.5rem;  
+    margin-bottom: 1rem;
+}
+
+a#Samstag{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(11, 222, 237);
+    padding: 0.5rem;  
+    margin-bottom: 1rem;
+}
+
+a#Sonntag{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(218, 153, 68);
+    padding: 0.5rem; 
+    margin-bottom: 1rem; 
+}
+
+
+
+
+
+a#Montag:visited {
+    color: black;
+    background-color: coral;
+}
+
+a#Dienstag:visited {
+    color: black;
+    background-color: rgb(18, 212, 160);
+}
+
+a#Mittwoch:visited {
+    color: black;
+    background-color: rgb(223, 133, 191);
+}
+
+a#Donnerstag:visited {
+    color: black;
+    background-color: rgb(255, 225, 0);
+}
+
+a#Freitag:visited {
+    color: black;
+    background-color: rgb(160, 143, 215);
+}
+
+a#Samstag:visited {
+    color: black;
+    background-color: rgb(215, 195, 143);
+}
+
+a#Sonntag:visited {
+    color: black;
+    background-color: rgb(221, 43, 37);
+}
+
+
+
+
+a#Montag:hover {
+    color: #33f;
+    background-color: aquamarine;
+    transform: rotateY(121deg)
+    perspective(700px);
+transform-origin: center center;
+}
+
+a#Dienstag:hover {
+    color: #33f;
+    background-color: rgb(68, 128, 108);
+	transform: rotateX(82deg)
+		perspective(700px);
+	transform-origin: center center;
+}
+
+a#Mittwoch:hover {
+    color: #33f;
+    background-color: rgb(220, 23, 184);
+    transform: rotateY(121deg)
+    perspective(700px);
+transform-origin: center center;
+}
+
+a#Donnerstag:hover {
+    color: #33f;
+    background-color: rgb(220, 23, 46);
+	transform: rotateX(82deg)
+		perspective(700px);
+	transform-origin: center center;
+}
+
+a#Freitag:hover {
+    color: #33f;
+    background-color: rgb(53, 220, 23);
+    transform: rotateY(121deg)
+    perspective(700px);
+transform-origin: center center;
+}
+
+a#Samstag:hover {
+    color: #33f;
+    background-color: rgb(155, 124, 222);
+	transform: rotateX(82deg)
+		perspective(700px);
+	transform-origin: center center;
+}
+
+a#Sonntag:hover {
+    color: #33f;
+    background-color: rgb(222, 124, 175);
+	transform: rotateY(121deg)
+		perspective(700px);
+	transform-origin: center center;
+}
+
+
+.flexcontainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: max-content;
+}
+
+
+
+.menu{
+position: fixed;
+top: 0px;
+left: 0px;
+width: 230px;
 }
