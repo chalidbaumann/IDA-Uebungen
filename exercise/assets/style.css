@@ -15,9 +15,12 @@ a{
 h1{
     font-family: 'Open Sans', sans-serif;  
     color: white;  
-    font-size: 3vw;
 }
 
+
+html{
+    scroll-behavior: smooth;
+}
 
 
 .bodyindex{
@@ -63,98 +66,104 @@ h1{
 }
 
 
-a#Montag{
-font-size: 2rem;
+#Montag{
 font-family: Arial, Helvetica, sans-serif;
 background-color: antiquewhite;
 padding: 0.5rem;
 margin-bottom: 1rem;
+top: 0px;
 }
 
-a#Dienstag{
-    font-size: 5rem;
+#Dienstag{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(217, 181, 134);
     padding: 0.5rem;    
     margin-bottom: 1rem;
+    top: 400px;
+    left: 130px;
 }
 
-a#Mittwoch{
-    font-size: 1.5rem;
+#Mittwoch{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(151, 190, 178);
     padding: 0.5rem; 
     margin-bottom: 1rem; 
+    top: 570px;
+    left: 350px;
 }
 
-a#Donnerstag{
-    font-size: 1.5rem;
+#Donnerstag{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(234, 10, 219);
     padding: 0.5rem;  
     margin-bottom: 1rem;
+    top: 750px;
+    left: 650px;
 }
 
 
-a#Freitag{
-    font-size: 2.5rem;
+#Freitag{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(204, 154, 88);
     padding: 0.5rem;  
     margin-bottom: 1rem;
+    top: 850px;
+    left: 1000px;
 }
 
-a#Samstag{
-    font-size: 1.5rem;
+#Samstag{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(11, 222, 237);
     padding: 0.5rem;  
     margin-bottom: 1rem;
+    top: 1300px;
+    left: 200px;
 }
 
-a#Sonntag{
-    font-size: 4rem;
+#Sonntag{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(218, 153, 68);
     padding: 0.5rem; 
     margin-bottom: 1rem; 
+    top: 1500px;
+    left: 500px;
 }
 
 
 
 
 
-a#Montag:visited {
+#Montag:visited {
     color: black;
     background-color: coral;
 }
 
-a#Dienstag:visited {
+#Dienstag:visited {
     color: black;
     background-color: rgb(18, 212, 160);
 }
 
-a#Mittwoch:visited {
+#Mittwoch:visited {
     color: black;
     background-color: rgb(223, 133, 191);
 }
 
-a#Donnerstag:visited {
+#Donnerstag:visited {
     color: black;
     background-color: rgb(255, 225, 0);
 }
 
-a#Freitag:visited {
+#Freitag:visited {
     color: black;
     background-color: rgb(160, 143, 215);
 }
 
-a#Samstag:visited {
+#Samstag:visited {
     color: black;
     background-color: rgb(215, 195, 143);
 }
 
-a#Sonntag:visited {
+#Sonntag:visited {
     color: black;
     background-color: rgb(221, 43, 37);
 }
@@ -162,7 +171,7 @@ a#Sonntag:visited {
 
 
 
-a#Montag:hover {
+#Montag:hover {
     color: #33f;
     background-color: aquamarine;
     transform: rotateY(121deg)
@@ -170,7 +179,7 @@ a#Montag:hover {
 transform-origin: center center;
 }
 
-a#Dienstag:hover {
+#Dienstag:hover {
     color: #33f;
     background-color: rgb(68, 128, 108);
 	transform: rotateX(82deg)
@@ -178,7 +187,7 @@ a#Dienstag:hover {
 	transform-origin: center center;
 }
 
-a#Mittwoch:hover {
+#Mittwoch:hover {
     color: #33f;
     background-color: rgb(220, 23, 184);
     transform: rotateY(121deg)
@@ -186,7 +195,7 @@ a#Mittwoch:hover {
 transform-origin: center center;
 }
 
-a#Donnerstag:hover {
+#Donnerstag:hover {
     color: #33f;
     background-color: rgb(220, 23, 46);
 	transform: rotateX(82deg)
@@ -194,7 +203,7 @@ a#Donnerstag:hover {
 	transform-origin: center center;
 }
 
-a#Freitag:hover {
+#Freitag:hover {
     color: #33f;
     background-color: rgb(53, 220, 23);
     transform: rotateY(121deg)
@@ -202,7 +211,7 @@ a#Freitag:hover {
 transform-origin: center center;
 }
 
-a#Samstag:hover {
+#Samstag:hover {
     color: #33f;
     background-color: rgb(155, 124, 222);
 	transform: rotateX(82deg)
@@ -210,7 +219,7 @@ a#Samstag:hover {
 	transform-origin: center center;
 }
 
-a#Sonntag:hover {
+#Sonntag:hover {
     color: #33f;
     background-color: rgb(222, 124, 175);
 	transform: rotateY(121deg)
@@ -220,6 +229,7 @@ a#Sonntag:hover {
 
 
 .flexcontainer{
+    position: fixed;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -234,4 +244,16 @@ position: fixed;
 top: 0px;
 left: 0px;
 width: 230px;
+}
+
+.day{
+    position: absolute;
+    left: 350px;
+    width: 350px;
+    margin-right: 350px;
+    transition:all 2s;
+}
+
+.day:hover{
+    cursor: pointer;
 }
