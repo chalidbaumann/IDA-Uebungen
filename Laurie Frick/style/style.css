@@ -9,22 +9,62 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-a:hover{
-    cursor: pointer;
+h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 7vw;
+    padding-top: 0;
+    padding-left: 1vw;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.navmenu{
+.nav{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items: center;
+    position:fixed;
     font-family: 'Permanent Marker', cursive;
+    width: 98%;
+    padding-left: 0.5vw;
+}
+
+
+.a{
+   text-decoration: none; 
+   font-family: 'Permanent Marker', cursive;
+   font-size: 2vw;
+  }
+
+h1:hover{
+    cursor: pointer;
+	transform: perspective(700px)
+		scale(1.1);
+	transform-origin: center center;
+    transition: all 1.5s ease;
+    background-color: blueviolet;
+    color: orange;
+}
+
+
+a:hover{
+    cursor: pointer;
+    transform: perspective(700px)
+    scale(1.1);
+    transform-origin: center center;
+    transition: all 2s ease;
+    background-color: blueviolet;
+    color: orange;
 }
 
 .bodyindex{
-    background-color: rgb(169, 169, 169);;
+    background-color: rgb(201, 199, 199);;
 }
 
 
-
 .menurow{
-    position:absolute;
+    position:relative;
     top: 350px;
     margin-left: 0px;
     display: flex;
@@ -46,4 +86,49 @@ a:hover{
 .gallery{
     overflow: hidden;
     flex-direction: row;
+}
+
+.overlaydescription{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: ghostwhite;
+}
+
+.container:hover .overlaydescription{
+    opacity: 1;
+}
+
+.container{
+    position: relative;
+}
+
+.textdescription{
+font-size: 3vw;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: left;
+color: black;
+}
+
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.introduction{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
 }
