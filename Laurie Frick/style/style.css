@@ -9,7 +9,36 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+a:hover{
+    cursor: pointer;
+}
+
 .navmenu{
     font-family: 'Permanent Marker', cursive;
 }
 
+.bodyindex{
+    background-color: rgb(169, 169, 169);;
+}
+
+
+
+.menurow{
+    position: fixed;
+    top: 350px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width:2000px;
+    height: 300px;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+
+.backgroundimageLaurie{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
