@@ -65,7 +65,7 @@ a:hover{
 
 .menurow{
     position:relative;
-    top: 350px;
+    top: 150px;
     margin-left: 0px;
     display: flex;
     justify-content: flex-start;
@@ -131,4 +131,26 @@ color: black;
 .introduction{
     font-family: 'Open Sans', sans-serif;
     font-size: 1vw;
+    columns: 2;
+    column-gap: 1.5vw;
+    width: 50%;
+    word-break: normal;
+    padding-top: 10cm;
+    text-align: justify;
+}
+
+
+.comment{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2vw;
+    margin-top: 200px;
+}
+
+.pkritik{
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+    columns: 2;
+    column-gap: 1.5vw;
+    width: 50%;
 }
