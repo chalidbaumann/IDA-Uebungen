@@ -1,0 +1,78 @@
+:root{
+    --red: rgb(255, 51, 51);
+    --green: rgb(51, 255, 92);
+    --blue: rgb(51, 85, 255);
+    --purple: rgb(119, 51, 255);
+    --pink: rgb(255, 51, 221);
+    --cyan: rgb(10, 235, 255);
+    --yellow: rgb(255, 252, 51);
+    --white: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0);
+    --background: rgb(222, 197, 197);
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.red-bg{
+    background-color: var(--red);
+    align-items: flex-start;
+}
+
+.green-bg{
+    background-color: var(--green);
+}
+
+.blue-bg{
+    background-color: var(--blue);
+    align-items: center;
+}
+
+.purple-bg{
+    background-color: var(--purple);
+}
+
+.pink-bg{
+    background-color: var(--pink);
+}
+
+.cyan-bg{
+    background-color: var(--cyan);
+}
+
+.yellow-bg{
+    background-color: var(--yellow);
+    align-items: flex-end;
+}
+
+.white-bg{
+    background-color: var(--white);
+}
+
+.black-bg{
+    background-color: var(--black);
+}
+
+
+
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.flex-item{
+width: 150px;
+height: 150px;
+}
+
