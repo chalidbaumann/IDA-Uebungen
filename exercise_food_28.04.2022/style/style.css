@@ -1,0 +1,147 @@
+:root{
+    --background: rgb(255, 255, 255);
+    --bowl: rgb(135, 93, 93);
+    --burger:rgb(166, 120, 5);
+    --dal:rgb(9, 105, 14);
+    --kepap:rgb(196, 137, 8);
+    --lasagna:rgb(175, 32, 32);
+    --pizza:rgb(221, 225, 135);
+    --spaghetti:rgb(172, 180, 85);
+    --taco:rgb(119, 119, 39);
+    --thai:rgb(158, 72, 72);
+}
+
+
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 120vh;
+}
+
+
+.flex-item{
+    size: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.513) 5px 5px 10px;
+    /*width: 200px;
+    height: 200px;*/
+}
+
+
+
+
+.img-bowl{
+flex-grow: 2;
+/* order: 1; */
+}
+
+.img-burger{
+flex-grow: 5;
+}
+
+.img-dal{
+flex-grow: 0;
+}
+
+.img-kepap{
+flex-grow: 2;
+}
+
+.img-lasagna{
+    flex-grow: 3;
+}
+
+.img-pizza{
+    flex-grow: 7;
+}
+
+.img-spaghetti{
+    flex-grow: 2;
+}
+
+.img-taco{
+    flex-grow: 0;
+}
+
+.img-thai{
+    flex-grow: 2;
+}
+
+
+.p-bowl{
+    background-color: var(--background);
+    align-items: flex-start;
+    order: 0;
+}
+
+.p-burger{
+    background-color: var(--burger);
+    align-items: flex-start;
+    order: 0;
+}
+
+.p-dal{
+    background-color: var(--dal);
+    align-items: flex-start;
+    order: 0;
+}
+
+.p-kepap{
+    background-color: var(--kepap);
+    align-items: flex-start;
+    order: 0;
+}
+
+.p-lasagna{
+    background-color: var(--lasagna);
+    align-items: flex-start;
+    order: 0;
+}
+
+.p-pizza{
+    background-color: var(--pizza);
+    align-items: flex-start;
+    order: 0;
+}
+
+.p-spaghetti{
+    background-color: var(--spaghetti);
+    align-items: flex-start;
+    order: 0;
+}
+
+.p-taco{
+    background-color: var(--taco);
+    align-items: flex-start;
+    order: 0;
+}
+
+.p-thai{
+    background-color: var(--thai);
+    align-items: flex-start;
+    order: 0;
+}
+
+.card{
+    width: 25%;
+    margin: 2%;
+    height: 100px;
+    box-shadow: #000 3px 3px 5px;
+    background-color: var(--background);
+}
+
+.food{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    box-shadow: #000 3px 3px 5px;
+    overflow-y: scroll;
+}
