@@ -1,0 +1,61 @@
+
+
+
+
+.specialbutton {
+    background-color:aquamarine;
+	border-radius: 15px;
+	border:4px;
+    border-color: blueviolet;
+	color:blueviolet;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:3vw;
+	padding-left: 1ch;
+    padding-right: 1ch;
+    margin-right: 1ch;
+	text-shadow,
+}
+
+
+.specialbutton:hover {
+,
+}
+
+#element{
+    position: absolute;
+top: 200px;
+left: 0px;
+width: 100px;
+height: 100px;
+background-color: aquamarine;
+}
+
+.random{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.bild{
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+
+#container{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: yellow;
+}
+
+#animate{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background: red;
+    margin-top: 20px;
+}
