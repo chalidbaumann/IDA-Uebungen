@@ -13,13 +13,18 @@
 	padding-left: 1ch;
     padding-right: 1ch;
     margin-right: 1ch;
-	text-shadow,
+	box-shadow: 20px 10px 0px black;
 }
 
 
-.specialbutton:hover {
-,
+.button:hover {
+    /*color: #33f;*/
+    background-color: aquamarine;
+    transform: rotateY(121deg)
+    perspective(700px);
+transform-origin: center center;
 }
+
 
 #element{
     position: absolute;
