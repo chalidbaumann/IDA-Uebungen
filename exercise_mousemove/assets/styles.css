@@ -1,0 +1,17 @@
+
+
+/*#save-button, #load-button*/
+
+
+.button{
+    cursor: pointer;
+ background-color: rgb(246, 5, 133);
+ color: white;
+ border: wheat;
+ border-radius: 1rem;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 2rem;
+ padding: 1rem;   
+ margin-bottom: 2rem;
+ box-shadow: 20px 20px 0px black;
+}

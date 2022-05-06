@@ -1,7 +1,7 @@
 
 
 let mouse = []
-let max = 50
+let max = 500
 document.onmousemove = function (e){
     let pos_x = e.clientX
     let pos_y = e.clientY
@@ -9,16 +9,14 @@ document.onmousemove = function (e){
         x: pos_x,
         y: pos_y
     }
-
-
-    if(mouse.length < max){
-    mouse.push(object)
-} else {
-    console.log ('too many data points')
-}
+    if(mouse.length > max){
+    console.log('array is filled up!')
+    mouse.shift()
 //console.log(mouse)
 }
-
+mouse.push(object)
+console.log(mouse)
+}
 
 let pointer = document.getElementById('pointer')
 pointer.style.position = 'fixed'
@@ -49,8 +47,37 @@ if(mouse.length > 0){
 
 
 
+    // save JSON data
+let save_button = document.querySelector('#save-button');
+save_button.addEventListener('click', function(){
+    console.log('clicked');
+    let data = JSON.stringify(mouse);
+    let blob = new Blob([data], { type: 'application/json' });
+    let url = URL.createObjectURL(blob);
+    let a = document.createElement('a');
+    a.href = url;
+    a.download = 'mouse_movements' + Date.now().toString() + '.json';
+    a.click();
+    URL.revokeObjectURL(url);
+}
+)
 
+// load JSON data
 
+let load_button = document.querySelector('#load-button');
+load_button.addEventListener('click', function(){
+    console.log('clicked');
+    let input = load_button.querySelector('input');
+    let file = input.files[0];
+    let reader = new FileReader();
+    reader.onload = (event) => {
+        let data = JSON.parse(event.target.result);
+        mouse = data;
+        console.log(mouse);
+    }
+    reader.readAsText(file);
+}
+)
 
 
 
@@ -59,3 +86,13 @@ if(mouse.length > 0){
 
 //funktion benützen wenn oft wiederholen nötig. Ganze Liste wird in enem Wort gespeichert.
 //window.requestAnimationFrame
+
+
+
+//array sind Datenstruktur: sammeln Daten
+//sätze, buchstaben, nummern
+//es braucht immer index: Grösse zwischen 0 
+
+
+
+//Objekte: selber identifizierung nennen
