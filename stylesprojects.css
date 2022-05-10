@@ -1,0 +1,109 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    transition: all linear 1s;
+}
+
+
+
+
+
+.bodyindex{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #33f;
+}
+
+.menu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 230px;
+    }
+    
+    .day{
+        position: absolute;
+        left: 350px;
+        width: 350px;
+        margin-right: 350px;
+        transition:all 2s;
+    }
+
+    .tiktok{
+        background: rgb(121, 121, 212);
+    }
+
+
+    .flexcontainer{
+        position: fixed;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        width: max-content;
+    }
+
+
+
+
+    #tiktok{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(218, 153, 68);
+        padding: 0.5rem; 
+        margin-bottom: 1rem; 
+        top: 1500px;
+        left: 500px;
+    }
+
+    #laurie{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(218, 153, 68);
+        padding: 0.5rem; 
+        margin-bottom: 1rem; 
+        top: 1500px;
+        left: 500px;
+    }
+
+    #schulweg{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(218, 153, 68);
+        padding: 0.5rem; 
+        margin-bottom: 1rem; 
+        top: 1500px;
+        left: 500px;
+    }
+
+
+    #tiktok:hover {
+        color: #33f;
+        background-color: rgb(222, 124, 175);
+        transform: rotateY(121deg)
+            perspective(700px);
+        transform-origin: center center;
+    }
+
+    #laurie:hover {
+        color: #33f;
+        background-color: rgb(222, 124, 175);
+        transform: rotateY(121deg)
+            perspective(700px);
+        transform-origin: center center;
+    }
+
+    #schulweg:hover {
+        color: #33f;
+        background-color: rgb(222, 124, 175);
+        transform: rotateY(121deg)
+            perspective(700px);
+        transform-origin: center center;
+    }
+
