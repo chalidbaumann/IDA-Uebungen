@@ -13,6 +13,7 @@ body{
 a{
     text-decoration: none;
     transition: all linear 1s;
+    color: white;
 }
 
 
