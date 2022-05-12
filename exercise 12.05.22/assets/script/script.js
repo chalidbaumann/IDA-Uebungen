@@ -93,5 +93,16 @@ fetch(base_url + query)
 
 
 function build_coffee(data){
-    console.log(data)
+    console.log(data['file'])
+    let coffee_div = document.querySelector('.coffee')
+    let coffee_img = document.createElement('img')
+    coffee_img.src = data['file']
+    coffee_div.appendChild(coffee_img)
+}
+
+window.onload = function(){
+    let coffee_button = document.querySelector('kafi')
+    console.log(coffee_button)
+
+    coffee_button.addEventListener('click', request_coffee)
 }
