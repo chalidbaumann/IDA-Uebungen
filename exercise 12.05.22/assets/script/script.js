@@ -69,7 +69,7 @@ function build_facts (data){
 }
 
 
-function request_coffee(){
+function request_coffee() {
 let base_url = 'https://coffee.alexflipnote.dev'
 let query = '/random.json'
 
