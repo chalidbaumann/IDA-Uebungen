@@ -8,6 +8,7 @@ html{
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    height: 100vh;
 }
 
 a{
@@ -37,7 +38,7 @@ a{
         left: 350px;
         width: 350px;
         margin-right: 350px;
-        transition:all 2s;
+        transition:all 1s;
     }
 
     .tiktok{
@@ -59,53 +60,195 @@ a{
 
     #tiktok{
         font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(218, 153, 68);
+        background-color: rgb(133, 82, 15);
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 1500px;
+        top: 10px;
         left: 500px;
     }
 
     #laurie{
         font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(218, 153, 68);
+        background-color: rgb(247, 50, 6);
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 1500px;
+        top: 150px;
         left: 500px;
     }
 
     #schulweg{
         font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(1, 246, 13);
+        padding: 0.5rem; 
+        margin-bottom: 1rem; 
+        top: 300px;
+        left: 500px;
+    }
+
+    #flüssiges{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(148, 214, 226);
+        padding: 0.5rem; 
+        margin-bottom: 1rem; 
+        top: 450px;
+        left: 500px;
+    }
+
+    #exflexbox{
+        font-family: Arial, Helvetica, sans-serif;
         background-color: rgb(218, 153, 68);
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 1500px;
+        top: 600px;
         left: 500px;
     }
+
+    #flexboxfood{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(68, 218, 171);
+        padding: 0.5rem; 
+        margin-bottom: 1rem; 
+        top: 750px;
+        left: 500px;
+    }
+
+    #klickmich{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(0, 0, 0);
+        padding: 0.5rem; 
+        margin-bottom: 1rem; 
+        top: 950px;
+        left: 500px;
+    }
+
+    #triangle{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(245, 7, 205);
+        padding: 0.5rem; 
+        margin-bottom: 1rem; 
+        top: 1100px;
+        left: 500px;
+    }
+
+    #history{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(218, 153, 68);
+        padding: 0.5rem; 
+        margin-bottom: 1rem; 
+        top: 1250px;
+        left: 500px;
+    }
+
+    #facts{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(235, 247, 5);
+        padding: 0.5rem; 
+        margin-bottom: 1rem; 
+        top: 1400px;
+        left: 500px;
+    }
+
+    #mousemove{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(166, 68, 218);
+        padding: 0.5rem; 
+        margin-bottom: 1rem; 
+        top: 1600px;
+        left: 500px;
+    }
+
+
+
+
+
 
 
     #tiktok:hover {
         color: #33f;
         background-color: rgb(222, 124, 175);
-        transform: rotateY(121deg)
-            perspective(700px);
+        transform: perspective(800px) scale(1.1);
         transform-origin: center center;
     }
 
     #laurie:hover {
         color: #33f;
         background-color: rgb(222, 124, 175);
-        transform: rotateY(121deg)
-            perspective(700px);
+        transform: perspective(800px) scale(1.1);
         transform-origin: center center;
     }
 
     #schulweg:hover {
         color: #33f;
         background-color: rgb(222, 124, 175);
-        transform: rotateY(121deg)
-            perspective(700px);
+        transform: perspective(800px) scale(1.1);
         transform-origin: center center;
     }
 
+    #flüssiges:hover {
+        color: #33f;
+        background-color: rgb(222, 124, 175);
+        transform: perspective(800px) scale(1.1);
+        transform-origin: center center;
+    }
+
+    #exflexbox:hover {
+        color: #33f;
+        background-color: rgb(222, 124, 175);
+        transform: perspective(800px) scale(1.1);
+        transform-origin: center center;
+    }
+
+    #flexboxfood:hover {
+        color: #33f;
+        background-color: rgb(222, 124, 175);
+        transform: perspective(800px) scale(1.1);
+        transform-origin: center center;
+    }
+
+    #klickmich:hover {
+        color: #33f;
+        background-color: rgb(222, 124, 175);
+        transform: perspective(800px) scale(1.1);
+        transform-origin: center center;
+    }
+
+    #triangle:hover {
+        color: #33f;
+        background-color: rgb(222, 124, 175);
+        transform: perspective(800px) scale(1.1);
+        transform-origin: center center;
+    }
+
+    #history:hover {
+        color: #33f;
+        background-color: rgb(222, 124, 175);
+        transform: perspective(800px) scale(1.1);
+        transform-origin: center center;
+    }
+
+    #facts:hover {
+        color: #33f;
+        background-color: rgb(222, 124, 175);
+        transform: perspective(800px) scale(1.1);
+        transform-origin: center center;
+    }
+
+    #mousemove:hover {
+        color: #33f;
+        background-color: rgb(222, 124, 175);
+        transform: perspective(800px) scale(1.1);
+        transform-origin: center center;
+    }
+
+
+
+
+
+    .day:hover{
+        cursor: pointer;
+    }
+
+
+   .buttons{
+       font-size: 40px;
+   }
