@@ -23,7 +23,7 @@ a{
 
 .bodyindex{
     font-family: 'Open Sans', sans-serif;
-    background-color: #33f;
+    background-color: rgb(29, 29, 228);
 }
 
 .menu{
@@ -53,6 +53,7 @@ a{
         align-items: flex-start;
         flex-direction: column;
         width: max-content;
+        line-height: 20px;
     }
 
 
@@ -60,56 +61,69 @@ a{
 
     #tiktok{
         font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(133, 82, 15);
+        background-color: black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
         top: 10px;
         left: 500px;
+        text-align: center;
+        align-items: center;
+        height: 80px;
     }
 
     #laurie{
         font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(247, 50, 6);
+        background-color: rgb(0, 0, 0);
         padding: 0.5rem; 
         margin-bottom: 1rem; 
         top: 150px;
         left: 500px;
+        text-align: center;
+        align-items: center;
     }
 
     #schulweg{
         font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(1, 246, 13);
+        background-color:black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
         top: 300px;
         left: 500px;
+        text-align: center;
+        align-items: center;
     }
 
     #flüssiges{
         font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(148, 214, 226);
+        background-color: black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
         top: 450px;
         left: 500px;
+        text-align: center;
+        align-items: center;
     }
 
     #exflexbox{
         font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(218, 153, 68);
+        background-color: black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
         top: 600px;
         left: 500px;
+        text-align: center;
+        align-items: center;
     }
 
     #flexboxfood{
         font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(68, 218, 171);
+        background-color: black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
         top: 750px;
         left: 500px;
+        text-align: center;
+        align-items: center;
     }
 
     #klickmich{
@@ -119,42 +133,52 @@ a{
         margin-bottom: 1rem; 
         top: 950px;
         left: 500px;
+        text-align: center;
+        align-items: center;
     }
 
     #triangle{
         font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(245, 7, 205);
+        background-color: black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
         top: 1100px;
         left: 500px;
+        text-align: center;
+        align-items: center;
     }
 
     #history{
         font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(218, 153, 68);
+        background-color: black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
         top: 1250px;
         left: 500px;
+        text-align: center;
+        align-items: center;
     }
 
     #facts{
         font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(235, 247, 5);
+        background-color:black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
         top: 1400px;
         left: 500px;
+        text-align: center;
+        align-items: center;
     }
 
     #mousemove{
         font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(166, 68, 218);
+        background-color:black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
         top: 1600px;
         left: 500px;
+        text-align: center;
+        align-items: center;
     }
 
 
@@ -165,44 +189,47 @@ a{
 
     #tiktok:hover {
         color: #33f;
-        background-color: rgb(222, 124, 175);
+        background-color: rgb(133, 82, 15);
         transform: perspective(800px) scale(1.1);
         transform-origin: center center;
     }
 
     #laurie:hover {
         color: #33f;
-        background-color: rgb(222, 124, 175);
-        transform: perspective(800px) scale(1.1);
-        transform-origin: center center;
+        background-color: rgb(247, 50, 6);
+        transform: rotate(20deg)
+		perspective(1000px);
+	    transform-origin: center center;
     }
 
     #schulweg:hover {
         color: #33f;
-        background-color: rgb(222, 124, 175);
+        background-color: #dfdba1;
         transform: perspective(800px) scale(1.1);
         transform-origin: center center;
     }
 
     #flüssiges:hover {
         color: #33f;
-        background-color: rgb(222, 124, 175);
-        transform: perspective(800px) scale(1.1);
-        transform-origin: center center;
+        background-color: #3d88de;
+        transform: rotate(-20deg)
+		perspective(1000px);
+	    transform-origin: center center;
     }
 
     #exflexbox:hover {
         color: #33f;
-        background-color: rgb(222, 124, 175);
+        background-color:rgb(240, 139, 7);
         transform: perspective(800px) scale(1.1);
         transform-origin: center center;
     }
 
     #flexboxfood:hover {
         color: #33f;
-        background-color: rgb(222, 124, 175);
-        transform: perspective(800px) scale(1.1);
-        transform-origin: center center;
+        background-color:rgb(68, 218, 171);
+        transform: rotate(20deg)
+		perspective(1000px);
+	    transform-origin: center center;
     }
 
     #klickmich:hover {
@@ -214,28 +241,30 @@ a{
 
     #triangle:hover {
         color: #33f;
-        background-color: rgb(222, 124, 175);
-        transform: perspective(800px) scale(1.1);
-        transform-origin: center center;
+        background-color:rgb(245, 7, 205);
+        transform: rotate(-20deg)
+		perspective(1000px);
+	    transform-origin: center center;
     }
 
     #history:hover {
         color: #33f;
-        background-color: rgb(222, 124, 175);
+        background-color: rgb(0, 255, 255);
         transform: perspective(800px) scale(1.1);
         transform-origin: center center;
     }
 
     #facts:hover {
         color: #33f;
-        background-color: rgb(222, 124, 175);
-        transform: perspective(800px) scale(1.1);
-        transform-origin: center center;
+        background-color: rgb(235, 247, 5);
+        transform: rotate(20deg)
+		perspective(1000px);
+	    transform-origin: center center;
     }
 
     #mousemove:hover {
         color: #33f;
-        background-color: rgb(222, 124, 175);
+        background-color:rgb(102, 12, 150);
         transform: perspective(800px) scale(1.1);
         transform-origin: center center;
     }
@@ -250,5 +279,5 @@ a{
 
 
    .buttons{
-       font-size: 40px;
+       font-size: 30px;
    }
