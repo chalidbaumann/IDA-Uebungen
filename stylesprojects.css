@@ -13,11 +13,15 @@ body{
 
 a{
     text-decoration: none;
-    transition: all linear 1s;
+    transition: all linear 0.5s;
     color: white;
 }
 
-
+h1{
+   font-size: 400px;
+   line-height: 180px;
+   color: rgba(255, 255, 255, 0.896);
+}
 
 
 
@@ -32,43 +36,72 @@ a{
     left: 0px;
     width: 230px;
     }
-    
-    .day{
+
+
+
+
+
+
+/*links homepage*/
+   .buttons{
+    font-size: 25px;
+}
+       .day{
         position: absolute;
-        left: 350px;
+        /*left: 350px;*/
         width: 350px;
         margin-right: 350px;
-        transition:all 1s;
-    }
-
-    .tiktok{
-        background: rgb(121, 121, 212);
+        transition:all 0.5s;
     }
 
 
+
+
+
+
+/*Menu weiss*/
     .flexcontainer{
+        top: 10px;
         position: fixed;
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
-        width: max-content;
+        /*width: max-content;*/
         line-height: 20px;
     }
 
 
+    /*Titel IDA*/
+    .flexcontainerright{
+        position: fixed;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        flex-direction: column;
+        /*width: max-content;*/
+        overflow-wrap: break-word;
+        text-align: right;
+        height: auto;
+    }
+
+    .h1{
+        text-align: center;
+        align-items: center;
+    }
 
 
+    /*ID*/
     #tiktok{
         font-family: Arial, Helvetica, sans-serif;
         background-color: black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
         top: 10px;
-        left: 500px;
+        left: 450px;
         text-align: center;
         align-items: center;
-        height: 80px;
+        /*height: 100px;*/
     }
 
     #laurie{
@@ -76,8 +109,8 @@ a{
         background-color: rgb(0, 0, 0);
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 150px;
-        left: 500px;
+        top: 200px;
+        left: 450px;
         text-align: center;
         align-items: center;
     }
@@ -87,8 +120,8 @@ a{
         background-color:black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 300px;
-        left: 500px;
+        top: 360px;
+        left: 450px;
         text-align: center;
         align-items: center;
     }
@@ -98,8 +131,8 @@ a{
         background-color: black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 450px;
-        left: 500px;
+        top: 520px;
+        left: 450px;
         text-align: center;
         align-items: center;
     }
@@ -109,8 +142,8 @@ a{
         background-color: black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 600px;
-        left: 500px;
+        top: 680px;
+        left: 450px;
         text-align: center;
         align-items: center;
     }
@@ -120,8 +153,8 @@ a{
         background-color: black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 750px;
-        left: 500px;
+        top: 840px;
+        left: 450px;
         text-align: center;
         align-items: center;
     }
@@ -131,8 +164,8 @@ a{
         background-color: rgb(0, 0, 0);
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 950px;
-        left: 500px;
+        top: 1000px;
+        left: 450px;
         text-align: center;
         align-items: center;
     }
@@ -142,8 +175,8 @@ a{
         background-color: black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 1100px;
-        left: 500px;
+        top: 1160px;
+        left: 450px;
         text-align: center;
         align-items: center;
     }
@@ -153,8 +186,8 @@ a{
         background-color: black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 1250px;
-        left: 500px;
+        top: 1320px;
+        left: 450px;
         text-align: center;
         align-items: center;
     }
@@ -164,8 +197,8 @@ a{
         background-color:black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 1400px;
-        left: 500px;
+        top: 1480px;
+        left: 450px;
         text-align: center;
         align-items: center;
     }
@@ -175,8 +208,8 @@ a{
         background-color:black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 1600px;
-        left: 500px;
+        top: 1640px;
+        left: 450px;
         text-align: center;
         align-items: center;
     }
@@ -186,9 +219,8 @@ a{
 
 
 
-
+    /*ID hover*/
     #tiktok:hover {
-        color: #33f;
         background-color: rgb(133, 82, 15);
         transform: perspective(800px) scale(1.1);
         transform-origin: center center;
@@ -271,13 +303,52 @@ a{
 
 
 
-
-
     .day:hover{
         cursor: pointer;
     }
 
 
-   .buttons{
-       font-size: 30px;
-   }
+
+    #tiktok:hover a{
+        color: #33f;
+    }
+
+    #laurie:hover a{
+        color: #33f;
+    }
+
+    #schulweg:hover a{
+        color: #33f;
+    }
+
+    #flüssiges:hover a{
+        color: #33f;
+    }
+
+    #exflexbox:hover a{
+        color: #33f;
+    }
+
+    #flexboxfood:hover a{
+        color: #33f;
+    }
+
+    #klickmich:hover a{
+        color: #33f;
+    }
+
+    #triangle:hover a{
+        color: #33f;
+    }
+
+    #history:hover a{
+        color: #33f;
+    }
+
+    #facts:hover a{
+        color: #33f;
+    }
+
+    #mousemove:hover a{
+        color: #33f;
+    }
