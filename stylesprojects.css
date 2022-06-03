@@ -17,12 +17,12 @@ a{
     color: white;
 }
 
+/*
 h1{
    font-size: 400px;
    line-height: 180px;
    color: rgba(255, 255, 255, 0.896);
-}
-
+}*/
 
 
 .bodyindex{
@@ -37,6 +37,12 @@ h1{
     width: 230px;
     }
 
+h3{
+    font-size: 40px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.786);  
+}
+
 
 
 
@@ -46,23 +52,33 @@ h1{
    .buttons{
     font-size: 25px;
 }
-       .day{
-        position: absolute;
-        /*left: 350px;*/
-        width: 350px;
-        margin-right: 350px;
-        transition:all 0.5s;
+    .day{
+    position: absolute;
+    /*left: 350px;*/
+    width: 350px;
+    margin-right: 350px;
+    transition:all 0.5s;
     }
 
 
 
-
+.flexbox{
+    height: 240px;
+    width: 100%;
+    background-color: #dfdba100;
+    display: flex;
+    justify-content: space-between;
+    z-index: 0;
+    position: fixed;
+    margin: 0;
+    padding: 5px;
+}
 
 
 /*Menu weiss*/
     .flexcontainer{
         top: 10px;
-        position: fixed;
+        /*position: fixed;*/
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
@@ -74,15 +90,30 @@ h1{
 
     /*Titel IDA*/
     .flexcontainerright{
-        position: fixed;
-        display: flex;
+        /*position: fixed;*/
+        /*display: flex;*/
         justify-content: flex-start;
         align-items: flex-end;
         flex-direction: column;
         /*width: max-content;*/
         overflow-wrap: break-word;
         text-align: right;
-        height: auto;
+        height: 220px;
+        width: 180px;
+        background:rgb(29, 29, 228);
+        margin-right: 25px;
+        padding: 20px;
+    }
+
+    .flexcontainerright:hover{
+        background: linear-gradient(135deg,#660c96fd, rgb(29, 82, 228), #660c96fd);
+        cursor: pointer;
+        background-repeat: no-repeat;
+        transition: 0.5s;
+        /*background-position: 100% 100%;*/
+        /*border: rgb(29, 29, 228);*/
+       /*border-width: 5px;*/
+        box-shadow: inset 3px 3px 3px 10px rgb(29, 29, 228);
     }
 
     .h1{
@@ -221,6 +252,7 @@ h1{
 
     /*ID hover*/
     #tiktok:hover {
+        color: #33f;
         background-color: rgb(133, 82, 15);
         transform: perspective(800px) scale(1.1);
         transform-origin: center center;
