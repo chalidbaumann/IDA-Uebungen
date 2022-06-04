@@ -17,6 +17,11 @@ a{
     color: white;
 }
 
+
+h3:hover{
+    color: rgb(68, 218, 171);
+}
+
 /*
 h1{
    font-size: 400px;
@@ -42,7 +47,6 @@ h3{
     line-height: 20px;
     color: rgba(255, 255, 255, 0.786);  
 }
-
 
 
 
@@ -77,7 +81,7 @@ h3{
 
 /*Menu weiss*/
     .flexcontainer{
-        top: 10px;
+        top: 0;
         /*position: fixed;*/
         display: flex;
         justify-content: flex-start;
@@ -100,11 +104,13 @@ h3{
         text-align: right;
         height: 220px;
         width: 180px;
-        background:rgb(29, 29, 228);
+        background:rgba(29, 29, 228, 0);
         margin-right: 25px;
         padding: 20px;
+        top: 0;
     }
 
+    /*
     .flexcontainerright:hover{
         background: linear-gradient(135deg,#660c96fd, rgb(29, 82, 228), #660c96fd);
         cursor: pointer;
@@ -113,8 +119,8 @@ h3{
         /*background-position: 100% 100%;*/
         /*border: rgb(29, 29, 228);*/
        /*border-width: 5px;*/
-        box-shadow: inset 3px 3px 3px 10px rgb(29, 29, 228);
-    }
+       /* box-shadow: inset 3px 3px 3px 10px rgb(29, 29, 228);
+    }*/
 
     .h1{
         text-align: center;
@@ -384,3 +390,119 @@ h3{
     #mousemove:hover a{
         color: #33f;
     }
+
+
+
+
+
+
+
+    /*navigation side*/
+    .navbar{
+        position: fixed;
+        top: 370px;
+        right: 0px;
+        width: 300px;
+        height: 300px;
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        transition: 0.800s ease;
+        margin-left: 10px;
+    }
+
+    .navbar > .side-nav{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-item{
+        display: flex;
+    }
+
+
+.nav-item > .nav-link{
+text-decoration: none;
+color: white;
+font-size: 1.1em;
+padding: 1em;
+flex: 1;
+}
+
+.nav-item > .nav-link:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.toggle-collapse{
+    float: left;
+    margin-left: -7em;
+    margin-top: .5em;
+    content: "";
+    outline: inherit;
+    border: 0px;
+    background: transparent;
+}
+
+.toggle-icon,
+.toggle-icon::before,
+.toggle-icon::after{
+    content: "";
+    width: 30px;
+    height: 3px;
+    position: fixed;
+    background-color: black;
+    border-radius: 2em;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.800s ease;
+    margin-top: 0.8em;
+}
+
+.toggle-icon::before{
+    position: absolute;
+    left: -1px;
+    margin-top: -0.8em;
+}
+
+.toggle-item::after{
+    position: absolute;
+    left: -1px;
+    margin-top: 0.6em;
+    width: 20px;
+}
+
+.toggle-icon{
+    width: 15px;   
+}
+
+.show .toggle-icon::after{
+    width: 30px;
+}
+
+.show .toggle-icon{
+    width: 30px;
+}
+
+.nav-item > .site-name{
+    text-decoration: none;
+    padding: 1.3em;
+    font-size: 2em;
+    color: white;
+}
+
+.nav-item:last-child > .nav-link i{
+    padding: .5em;
+}
+
+.nav-item:hover:last-child > .nav-link{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+span:hover{
+    cursor: pointer;
+}
