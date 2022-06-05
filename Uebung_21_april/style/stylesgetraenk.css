@@ -134,7 +134,7 @@ p:hover{
     .navbar{
         position: fixed;
         top: 370px;
-        right: 0px;
+        right: -300px;
         width: 300px;
         height: 430px;
         background-color: rgb(0, 0, 0);
@@ -171,7 +171,7 @@ margin-left: 45px;
 
 .toggle-collapse{
     float: left;
-    margin-left: -7em;
+    margin-left: -5em;
     margin-top: .5em;
     content: "";
     outline: inherit;
@@ -186,6 +186,7 @@ margin-left: 45px;
     width: 30px;
     height: 3px;
     position: fixed;
+    float: left;
     background-color: rgb(0, 0, 0);
     border-radius: 2em;
     border: 1px solid black;
@@ -196,13 +197,13 @@ margin-left: 45px;
 
 .toggle-icon::before{
     position: absolute;
-    left: -1px;
+    left: -2px;
     margin-top: -0.8em;
 }
 
 .toggle-item::after{
     position: absolute;
-    left: -1px;
+    left: -2px;
     margin-top: 0.6em;
     width: 20px;
 }

@@ -1,5 +1,3 @@
-
-
 function myFnc(e){
     e.classList.toggle("show");
 
@@ -14,5 +12,3 @@ function myFnc(e){
         elem.style.right = "0px";
     }
 }
-
-

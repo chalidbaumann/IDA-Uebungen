@@ -401,11 +401,11 @@ h3{
     .navbar{
         position: fixed;
         top: 370px;
-        right: 0px;
+        right: -300px;
         width: 300px;
-        height: 300px;
+        height: 400px;
         background-color: rgb(0, 0, 0);
-        text-align: center;
+        text-align: left;
         transition: 0.800s ease;
         margin-left: 10px;
     }
@@ -506,3 +506,8 @@ flex: 1;
 span:hover{
     cursor: pointer;
 }
+
+.p{
+    margin-left: 30px;
+}
+

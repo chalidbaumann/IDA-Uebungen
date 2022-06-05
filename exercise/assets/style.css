@@ -257,3 +257,115 @@ width: 230px;
 .day:hover{
     cursor: pointer;
 }
+
+
+
+
+
+    /*navigation side*/
+    .navbar{
+        position: fixed;
+        top: 370px;
+        right: -300px;
+        width: 300px;
+        height: 480px;
+        background-color: rgb(0, 0, 0);
+        text-align: left;
+        transition: 0.800s ease;
+        margin-left: 10px;
+    }
+
+    .navbar > .side-nav{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-item{
+        display: flex;
+    }
+
+
+.nav-item > .nav-link{
+text-decoration: none;
+color: white;
+font-size: 1.1em;
+padding: 0.2em;
+flex: 1;
+margin-left: 45px;
+}
+
+.nav-item > .nav-link:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(51, 242, 239);
+    cursor: pointer;
+}
+
+.toggle-collapse{
+    float: left;
+    margin-left: -5em;
+    margin-top: .5em;
+    content: "";
+    outline: inherit;
+    border: 0px;
+    background: transparent;
+}
+
+.toggle-icon,
+.toggle-icon::before,
+.toggle-icon::after{
+    content: "";
+    width: 30px;
+    height: 3px;
+    position: fixed;
+    float: left;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2em;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.800s ease;
+    margin-top: 0.8em;
+}
+
+.toggle-icon::before{
+    position: absolute;
+    left: -2px;
+    margin-top: -0.8em;
+}
+
+.toggle-item::after{
+    position: absolute;
+    left: -2px;
+    margin-top: 0.6em;
+    width: 20px;
+}
+
+.toggle-icon{
+    width: 15px;   
+}
+
+.show .toggle-icon::after{
+    width: 30px;
+}
+
+.show .toggle-icon{
+    width: 30px;
+}
+
+.nav-item > .site-name{
+    text-decoration: none;
+    padding: 1.3em;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+
+.nav-item:last-child > .nav-link i{
+    padding: .5em;
+}
+
+.nav-item:hover:last-child > .nav-link{
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
+}
