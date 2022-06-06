@@ -177,3 +177,8 @@ margin-left: 45px;
     cursor: pointer;
     text-decoration: none;
 }
+
+
+span:hover{
+    cursor: pointer;
+}

@@ -157,6 +157,9 @@ color: black;
 
 
 
+
+
+
     /*navigation side*/
     .navbar{
         position: fixed;
@@ -264,4 +267,12 @@ margin-left: 45px;
     color: rgb(0, 0, 0);
     cursor: pointer;
     text-decoration: none;
+}
+
+span{
+    margin: 0;
+}
+
+span:hover{
+    cursor: pointer;
 }

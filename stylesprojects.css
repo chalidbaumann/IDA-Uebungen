@@ -275,88 +275,86 @@ h3{
 
 
     /*ID hover*/
+    #laurie:hover {
+        color: #33f;
+        background-color: rgb(247, 50, 6);
+        transform: perspective(800px) scale(1.1);
+        transform-origin: center center;
+    }
+
+    #schulweg:hover {
+        color: #33f;
+        background-color: #dfdba1;
+        transform: rotate(20deg)
+		perspective(1000px);
+	    transform-origin: center center;
+    }
+
+    #flüssiges:hover {
+        color: #33f;
+        background-color: #3d88de;
+        transform: perspective(800px) scale(1.1);
+        transform-origin: center center;
+    }
+
+    #exflexbox:hover {
+        color: #33f;
+        background-color:rgb(240, 139, 7);
+        transform: rotate(-20deg)
+		perspective(1000px);
+	    transform-origin: center center;
+    }
+
+    #flexboxfood:hover {
+        color: #33f;
+        background-color:rgb(68, 218, 171);
+        transform: perspective(800px) scale(1.1);
+        transform-origin: center center;
+    }
+
+    #klickmich:hover {
+        color: #33f;
+        background-color: rgb(222, 124, 175);
+        transform: rotate(20deg)
+		perspective(1000px);
+	    transform-origin: center center;
+    }
+
+    #triangle:hover {
+        color: #33f;
+        background-color:rgb(245, 7, 205);
+        transform: perspective(800px) scale(1.1);
+        transform-origin: center center;
+    }
+
+    #history:hover {
+        color: #33f;
+        background-color: rgb(0, 255, 255);
+        transform: rotate(-20deg)
+		perspective(1000px);
+	    transform-origin: center center;
+    }
+
+    #facts:hover {
+        color: #33f;
+        background-color: rgb(235, 247, 5);
+        transform: perspective(800px) scale(1.1);
+        transform-origin: center center;
+    }
+
+    #mousemove:hover {
+        color: #33f;
+        background-color:rgb(102, 12, 150);
+        transform: rotate(20deg)
+		perspective(1000px);
+	    transform-origin: center center;
+    }
     #tiktok:hover {
         color: #33f;
         background-color: rgb(133, 82, 15);
         transform: perspective(800px) scale(1.1);
         transform-origin: center center;
     }
-
-    #laurie:hover {
-        color: #33f;
-        background-color: rgb(247, 50, 6);
-        transform: rotate(20deg)
-		perspective(1000px);
-	    transform-origin: center center;
-    }
-
-    #schulweg:hover {
-        color: #33f;
-        background-color: #dfdba1;
-        transform: perspective(800px) scale(1.1);
-        transform-origin: center center;
-    }
-
-    #flüssiges:hover {
-        color: #33f;
-        background-color: #3d88de;
-        transform: rotate(-20deg)
-		perspective(1000px);
-	    transform-origin: center center;
-    }
-
-    #exflexbox:hover {
-        color: #33f;
-        background-color:rgb(240, 139, 7);
-        transform: perspective(800px) scale(1.1);
-        transform-origin: center center;
-    }
-
-    #flexboxfood:hover {
-        color: #33f;
-        background-color:rgb(68, 218, 171);
-        transform: rotate(20deg)
-		perspective(1000px);
-	    transform-origin: center center;
-    }
-
-    #klickmich:hover {
-        color: #33f;
-        background-color: rgb(222, 124, 175);
-        transform: perspective(800px) scale(1.1);
-        transform-origin: center center;
-    }
-
-    #triangle:hover {
-        color: #33f;
-        background-color:rgb(245, 7, 205);
-        transform: rotate(-20deg)
-		perspective(1000px);
-	    transform-origin: center center;
-    }
-
-    #history:hover {
-        color: #33f;
-        background-color: rgb(0, 255, 255);
-        transform: perspective(800px) scale(1.1);
-        transform-origin: center center;
-    }
-
-    #facts:hover {
-        color: #33f;
-        background-color: rgb(235, 247, 5);
-        transform: rotate(20deg)
-		perspective(1000px);
-	    transform-origin: center center;
-    }
-
-    #mousemove:hover {
-        color: #33f;
-        background-color:rgb(102, 12, 150);
-        transform: perspective(800px) scale(1.1);
-        transform-origin: center center;
-    }
-
 
 
     .day:hover{
