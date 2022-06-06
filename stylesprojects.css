@@ -48,7 +48,9 @@ h3{
     color: rgba(255, 255, 255, 0.786);  
 }
 
-
+.Galerie{
+    top: 500px;
+}
 
 
 
@@ -92,6 +94,24 @@ h3{
     }
 
 
+    /*Galerie*/
+    .fbgalerie{
+        height: 240px;
+        width: 100%;
+        background-color: #dfdba100;
+        display: flex;
+        justify-content: space-between;
+        z-index: 0;
+        position: fixed;
+        margin: 0;
+        padding: 5px;
+        top: 400px;
+    }    
+    .fbgalerie:hover{
+        cursor: pointer;
+    }
+
+
     /*Titel IDA*/
     .flexcontainerright{
         /*position: fixed;*/
@@ -129,24 +149,12 @@ h3{
 
 
     /*ID*/
-    #tiktok{
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: black;
-        padding: 0.5rem; 
-        margin-bottom: 1rem; 
-        top: 10px;
-        left: 450px;
-        text-align: center;
-        align-items: center;
-        /*height: 100px;*/
-    }
-
     #laurie{
         font-family: Arial, Helvetica, sans-serif;
         background-color: rgb(0, 0, 0);
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 200px;
+        top: 10px;
         left: 450px;
         text-align: center;
         align-items: center;
@@ -157,7 +165,7 @@ h3{
         background-color:black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 360px;
+        top: 190px;
         left: 450px;
         text-align: center;
         align-items: center;
@@ -168,7 +176,7 @@ h3{
         background-color: black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 520px;
+        top: 370px;
         left: 450px;
         text-align: center;
         align-items: center;
@@ -179,7 +187,7 @@ h3{
         background-color: black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 680px;
+        top: 550px;
         left: 450px;
         text-align: center;
         align-items: center;
@@ -190,7 +198,7 @@ h3{
         background-color: black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 840px;
+        top: 730px;
         left: 450px;
         text-align: center;
         align-items: center;
@@ -201,7 +209,7 @@ h3{
         background-color: rgb(0, 0, 0);
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 1000px;
+        top: 910px;
         left: 450px;
         text-align: center;
         align-items: center;
@@ -212,7 +220,7 @@ h3{
         background-color: black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 1160px;
+        top: 1090px;
         left: 450px;
         text-align: center;
         align-items: center;
@@ -223,7 +231,7 @@ h3{
         background-color: black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 1320px;
+        top: 1270px;
         left: 450px;
         text-align: center;
         align-items: center;
@@ -234,7 +242,7 @@ h3{
         background-color:black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 1480px;
+        top: 1450px;
         left: 450px;
         text-align: center;
         align-items: center;
@@ -245,13 +253,23 @@ h3{
         background-color:black;
         padding: 0.5rem; 
         margin-bottom: 1rem; 
-        top: 1640px;
+        top: 1630px;
         left: 450px;
         text-align: center;
         align-items: center;
     }
 
-
+    #tiktok{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+        padding: 0.5rem; 
+        margin-bottom: 1rem; 
+        top: 1810px;
+        left: 450px;
+        text-align: center;
+        align-items: center;
+        /*height: 100px;*/
+    }
 
 
 
@@ -509,5 +527,6 @@ span:hover{
 
 .p{
     margin-left: 30px;
+    font-size: 8px;
 }
 
