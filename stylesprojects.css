@@ -105,9 +105,27 @@ h3{
         position: fixed;
         margin: 0;
         padding: 5px;
-        top: 400px;
+        top: 340px;
     }    
     .fbgalerie:hover{
+        cursor: pointer;
+    }
+
+    /*Hauptprojekt*/
+    .hp{
+        height: 240px;
+        width: 100%;
+        background-color: #dfdba100;
+        display: flex;
+        justify-content: space-between;
+        z-index: 0;
+        position: fixed;
+        margin: 0;
+        padding: 5px;
+        top: 520px;
+    }   
+    
+    .hp:hover{
         cursor: pointer;
     }
 
